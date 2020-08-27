@@ -23,7 +23,7 @@ spec:
       - name: healthhub-api
         ports:
           - containerPort: 8080
-        image: 277887097296.dkr.ecr.us-east-1.amazonaws.com/healthhub-api:latest
+        image: 277887097296.dkr.ecr.us-east-1.amazonaws.com/healthhub-api:2a5a7988710dd2177515a3f0ca8915b5609e595b
         args: ["npm", "start"]
         imagePullPolicy: Always
         readinessProbe:
